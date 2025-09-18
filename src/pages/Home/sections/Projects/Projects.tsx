@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <StyledProjects>
       <Container maxWidth="lg">
-        <Box id="projects" pt={5} pb={3}>
+        <Box id="projects" pt={3} pb={0}>
           <Typography
             variant="h2"
             textAlign={"center"}

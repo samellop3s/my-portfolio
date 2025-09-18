@@ -31,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         border: '0.5px solid' + theme.palette.primary.contrastText,
         backgroundColor: "transparent",
         color: theme.palette.primary.contrastText,
-        padding: "20px",
+        padding: "10px",
         '&:hover': {
             backgroundColor: theme.palette.primary.light
         }

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 
     return (
         <>
-            <Box pt={2} pb={2}>
+            <Box pt={1} pb={2}>
                 <Container maxWidth="sm">
                     <Box display="flex" alignItems="center" justifyContent="space-around" pb={1}>
                         <IconButton onClick={() => window.open("https://github.com/samellop3s")}>
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                         </IconButton>
                     </Box>
                     <Typography textAlign="center">
-                        © 2025 Samuel Lopes - All rights reserved
+                        © 2025 Samuel F. Lopes - All rights reserved
                     </Typography>
                 </Container>
             </Box>
